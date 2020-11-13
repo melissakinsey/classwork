@@ -1,8 +1,126 @@
-<!-- body { background-color: #f1e1a9; background-image:
-url("Scholl-building-Munich.png"); background-size: 100%; max-height: 600px;
-background-repeat: no-repeat; background-attachment: fixed; background-position:
-center bottom; } h1 { text-align: right; font-family: Arial; font-weight:
-lighter; font-size: 80px; color: black } div { width: auto; padding: 15px;
-margin-left: 220px; vertical-align: bottom; background: linen; height: auto; } p
-{ font-size: 22px; text-align: left; } -->
-ul padding 10px;
+<!DOCTYPE html>
+<html lang="en-us">
+	<!--BEGIN HEAD-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Portfolio of work created during the Columbia University Coding Boot Camp, October 2020 to April 2021."
+		/>
+		<meta
+			name="keywords"
+			content="portfolio, coding-boot-camp, technical-writing, programming, engineering"
+		/>
+		<meta name="author" content="Melissa Kinsey" />
+		<title>Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<style>
+		.container-1 {
+			width: 100%;
+			height: auto;
+		}
+
+		ul {
+			background-color: #fc9898;
+		}
+
+		li {
+			font-family: "Red Rose", cursive;
+			float: left;
+			margin: 10 px;
+			padding-left: 45px;
+			font-size: 28px;
+			color: white;
+			list-style: none;
+			background-color: #fc9898;
+		}
+
+		.container-2 {
+			width: 900px;
+			margin: 0 auto;
+			padding: 100px;
+		}
+
+		h1 {
+			font-family: "Red Rose", cursive;
+			font-weight: lighter;
+			color: black;
+			font-size: 60px;
+			float: left;
+		}
+
+		h2 {
+			font-family: "Red Rose", cursive;
+			color: black;
+			font-size: 60px;
+			float: right;
+		}
+
+		.hero-image {
+			background-image: url("piggy-bank-1056615_1920.png");
+			vertical-align: middle;
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			-ms-flex-item-align: center;
+			max-width: 100%;
+		}
+
+		a.nav-link-active {
+			color: white;
+		}
+	</style>
+
+	<!--BEGIN BODY-->
+	<body>
+		<!-- BEGIN CONTAINER-1 -->
+		<div class="container-1">
+			<div class="row">
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link-active" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link-active" href="#">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link-active" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- BEGIN CONTAINER-2 -->
+		<div class="container-2">
+			<div class="row">
+				<div class="col">
+					<h1>Better documentation</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img
+						src="piggy-bank-1056615_1920.png"
+						class="hero-image"
+						alt="Coin dropping into a piggy bank"
+					/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<h2>Less tech debt</h2>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
