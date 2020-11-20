@@ -1,0 +1,9 @@
+function random_item(items)
+{
+  
+return items[Math.floor(Math.random()*items.length)];
+     
+}
+
+var items = [r, p, s];
+console.log(random_item(items));
